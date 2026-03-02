@@ -86,7 +86,7 @@ Résolution par **Sequential Least-Squares Programming** avec gradient analytiqu
 
 > **Conclusion** : Le seuil réglementaire UCITS (TE < 1.5%) est franchi entre 15 et 20 titres, illustrant le compromis **précision de réplication / coût de transaction** central en gestion passive.
 
-![Dashboard](output/dashboard.png)
+![Dashboard](index_replication_dashboard_4.png)
 
 ---
 
