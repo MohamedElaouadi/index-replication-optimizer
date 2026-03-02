@@ -1,11 +1,11 @@
-# 📊 Index Replication Optimizer
+# Index Replication Optimizer
 
 > **Réplication indicielle partielle (CAC 40) — Optimisation quadratique sous contraintes, backtesting walk-forward**  
 > *Projet Python personnel — Mohamed Amine El Aouadi | MSc Big Data & Finance Quantitative, NEOMA Business School*
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Répliquer un indice boursier (CAC 40 synthétique, 39 titres) avec un **sous-ensemble de N titres (panier)**, en minimisant la **Tracking Error ex-ante** par optimisation quadratique sous contraintes.
 
@@ -13,7 +13,7 @@ Ce problème est au cœur de la **gestion indicielle et des ETFs** : chaque titr
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 index-replication-optimizer/
@@ -75,7 +75,7 @@ Résolution par **Sequential Least-Squares Programming** avec gradient analytiqu
 
 ---
 
-## 📈 Résultats
+## Résultats
 
 | Taille panier | TE annualisée | Information Ratio | Max Drawdown | UCITS |
 |:---:|:---:|:---:|:---:|:---:|
@@ -84,13 +84,13 @@ Résolution par **Sequential Least-Squares Programming** avec gradient analytiqu
 | 15 titres | 2.01% | -0.10 | -13.5% | ❌ |
 | **20 titres** | **1.37%** | **-0.38** | **-13.1%** | **✅** |
 
-> ⚡ **Conclusion** : Le seuil réglementaire UCITS (TE < 1.5%) est franchi entre 15 et 20 titres, illustrant le compromis **précision de réplication / coût de transaction** central en gestion passive.
+> **Conclusion** : Le seuil réglementaire UCITS (TE < 1.5%) est franchi entre 15 et 20 titres, illustrant le compromis **précision de réplication / coût de transaction** central en gestion passive.
 
 ![Dashboard](output/dashboard.png)
 
 ---
 
-## 🚀 Installation & Lancement
+## Installation & Lancement
 
 ### Prérequis
 - Python 3.10+
@@ -124,11 +124,11 @@ Ouvre automatiquement `http://localhost:8501`
 
 ### App en ligne
 
-👉 **[Accéder à la démo live](https://TON_USERNAME-index-replication.streamlit.app)**
+ **[Accéder à la démo live](https://TON_USERNAME-index-replication.streamlit.app)**
 
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 | Librairie | Usage |
 |---|---|
@@ -140,7 +140,7 @@ Ouvre automatiquement `http://localhost:8501`
 
 ---
 
-## 📚 Concepts financiers abordés
+## Concepts financiers abordés
 
 - **Tracking Error** (ex-ante vs ex-post)
 - **Réplication physique partielle** vs réplication complète
@@ -152,11 +152,11 @@ Ouvre automatiquement `http://localhost:8501`
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Mohamed Amine El Aouadi**  
 MSc Big Data & Finance Quantitative — NEOMA Business School (2026–2027)  
-Ancien Analyste RFP — BNP Paribas Asset Management (2022–2026)  
+Analyste RFP — BNP Paribas Asset Management (2022–2026)  
 📧 elaouadiamine02@gmail.com
 
 ---
