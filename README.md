@@ -26,7 +26,7 @@ index-replication-optimizer/
 
 ---
 
-## ⚙️ Pipeline technique
+## Pipeline technique
 
 ### 1. Génération de données — Modèle factoriel 3 facteurs
 
