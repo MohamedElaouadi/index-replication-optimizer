@@ -160,5 +160,3 @@ Analyste RFP — BNP Paribas Asset Management (2022–2026)
 📧 elaouadiamine02@gmail.com
 
 ---
-
-*Projet réalisé dans le cadre de la candidature à l'alternance Front Office Risk Officer ETF/Index, BNP Paribas Asset Management.*
